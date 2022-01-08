@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    max-width: 1200px;
+     margin: 0 auto;
+     font-family: Arial, Helvetica, sans-serif;
+}
+header{
+   height: 100px;
+}
+
+h1{
+    text-transform: uppercase;
+    margin:-5px 0 -10px 0 ;
+    font-size: 54px;
+   
+    color: green;
+}
+
+.header span{
+    color: gray;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+nav a{
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    display: inline-block;
+    width: 160px;
+    text-decoration: none;
+    background-color: green;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 30px;
+    height: 50px;
+    padding-top: 16px;
+    color: white;
+}    
+
+h2{
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.line{
+    border-bottom: solid 1px green;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+   
+}
+.one div{
+      width: 380px;
+      margin-top: 10px;
+}
+.one img{
+      width: 380px;
+}
+
+.two div{
+      width: 280px;
+      margin-top: 10px;
+}
+
+.two img{
+      width: 280px;
+}
+
+.three{
+    width: 190px;
+    margin-top: 10px;
+}
+.three img{
+    width: 190px;
+}
+.full_size{
+    width: 350px;
+    height: 127px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.full_size img {
+    width: 350px;
+}
+
+footer{
+    background-color: green;
+    height: 40px;
+}
+footer div{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
